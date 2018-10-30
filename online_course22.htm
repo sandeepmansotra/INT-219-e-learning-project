@@ -1,0 +1,492 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Online Degree Program Directory - Academic Earth</title>
+
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="learn.css">
+  <link rel="stylesheet" href="w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+
+  <style type="text/css">
+     .box1{
+
+        width: 100%;
+
+        height: 450px;
+        background-color: #233247;
+     }
+     .box2{
+        float: left;
+        position:relative;
+        width: 50%;
+        height: auto;
+        border:none;
+        font-size:1.1vw;
+        font-weight:5;
+        font-family:Arial,Helvetica,sans-serif;
+        color:white;
+        top: 10%;
+        left: 12%;
+        text-align: center;
+        line-height: 25px;
+     }
+     .box3
+     {
+        float: left;
+        border-radius: 6px;
+           background:#e6e6ff;
+        position: relative;
+        width: 22%;
+        height: 320px;
+        top: 10%;
+        left:15%;
+        border:none;
+        box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #497a78, 0px 10px 5px #999;
+
+     }
+     .username
+     {
+
+        border-radius: 6px;
+        height: 35px;
+        width: 75%;
+        margin-left: 12%;
+        margin-top:4px;
+     }
+
+     .password
+     {
+
+        border-radius: 6px;
+        height: 35px;
+        width: 75%;
+        margin-left: 12%;
+
+
+     }
+     .forgot{
+        color: grey;
+        font-size: 12px;
+        display: inline-block;
+        float: right;
+        margin-right: 30px;
+        text-decoration: none;
+     }
+     input[type="submit"] {
+width:200px;
+height:35px;
+display:block;
+font-family:Arial, "Helvetica", sans-serif;
+font-size:16px;
+font-weight:bold;
+color:#fff;
+text-decoration:none;
+text-transform:uppercase;
+text-align:center;
+text-shadow:1px 1px 0px #37a69b;
+padding-top:8px;
+margin: 32px 0 0 48px;
+position:relative;
+cursor:pointer;
+border: none;
+background-color: #37a69b;
+background-image: linear-gradient(top,#3db0a6,#3111);
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius:5px;
+box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #497a78, 0px 10px 5px #999;
+}
+ul{
+  list-style-type: none;
+  margin-left: 10px;
+  padding: 5px;
+  color: white;
+}
+
+
+
+  </style>
+</head>
+  <body>
+  	<nav class="nav navbar-default navbar-fixed-top">
+  	<div class="container-fluid">
+  	<div class="row">
+  		<div class="col-sm-2"></div>
+  		<div class="col-sm-7">
+
+  		<div class="navbar-header">
+
+  			<a class="navbar-brand " href="home.html" style="font-size: 20px;font-family: sans-serif Helvetica;"><b>ACADEMIC EARTH</b></a>
+  		</div>
+
+  		<ul class="nav navbar-nav">
+  			<li><a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-black">Online Degrees</a></li>
+
+  			<li class="dropdown w3-hover-black">
+  				<a href="#" class="dropbtn">Courses</a>
+  					<div class="dropdown-content">
+       					 <a href="#">Accounting</a>
+       					 <a href="#">Art History</a>
+       					 <a href="#">Biology</a>
+       					 <a href="#">Business</a>
+       					 <a href="#">Chemistry</a>
+       					 <a href="#">Computer Science</a>
+       					 <a href="#">Economics</a>
+       					 <a href="#">E-comerce</a>
+       					 <a href="#">Engineering</a>
+       					 <a href="#">Mathematics</a>
+       					 <a href="#">Psychology</a>
+    					 </div>
+  			</li>
+
+  			<li><a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-black">PlayLists</a></li>
+  			<li><a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-black">Video Electives</a></li>
+  				<li><a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-black" id="myBtn">Sign Up</a></li>
+  		</ul>
+  	</div>
+  	<div class="col-sm-3">
+  		<form class="navbar-form navbar-left">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search" name="search">
+          <div class="input-group-btn">
+            <button class="btn btn-default" type="submit">
+              <i class="glyphicon glyphicon-search"></i>
+            </button>
+          </div>
+        </div>
+      </form>
+  	</div>
+  	</div>
+  	</div>
+  </nav>
+
+
+<br><br><br>
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h1 class="w3-center w3-padding-64"><span class=" w3-text-black w3-center">ONLINE DEGREE PROGRAM DIRECTORY</span></h1>
+    <p class="w3-center">Research your options when it comes to choosing the degree you want to earn, as the program best suited for you will
+      depend on your personal and professional aspirations. We’ve broken down the most popular degrees in the fastest-growing industries.
+       Read through our guides to learn more about each field’s available higher education tracks,
+      and the qualifications, curricula, career expectations, salary averages, and next steps for each one.</p>
+  </div>
+</div>
+
+<div class="w3-container w3-padding-64 w3-center" >
+  <h1 class="w3-pannel w3-black w3-text-yellow" >Business</h1>
+
+  <div class="w3-row"><br>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Business Administration</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Management</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Hospitality Management</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Accounting</h3>
+  </div>
+
+  <div class="w3-row"><br>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Finance</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Banking</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Administrative Assistance</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Marketing</h3>
+  </div>
+
+  </div>
+</div>
+
+<div class="w3-container w3-padding-64 w3-center" >
+  <h1 class="w3-pannel w3-black w3-text-yellow" >Computers & IT</h1>
+
+  <div class="w3-row"><br>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Computer Science</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Graphic Design</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Information Security and Assurance</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Information Systems</h3>
+  </div>
+
+  <div class="w3-row"><br>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Programming</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Web Development</h3>
+  </div>
+  </div>
+</div>
+
+<div class="w3-container w3-padding-64 w3-center" >
+  <h1 class="w3-pannel w3-black w3-text-yellow" >Criminal Justice</h1>
+
+  <div class="w3-row"><br>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Business Administration</h3>
+  </div>
+  </div>
+</div>
+
+<div class="w3-container w3-padding-64 w3-center" >
+  <h1 class="w3-pannel w3-black w3-text-yellow" >Education</h1>
+
+  <div class="w3-row"><br>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Elementry Education</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Special Education</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Teaching</h3>
+  </div>
+  </div>
+</div>
+
+<div class="w3-container w3-padding-64 w3-center" >
+  <h1 class="w3-pannel w3-black w3-text-yellow" >Health</h1>
+
+  <div class="w3-row"><br>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Dental Assisting</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Health Care Administration</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Health Science</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Medical Assisting</h3>
+  </div>
+
+  <div class="w3-row"><br>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Medical Billing and Coding</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Nurition</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Physical Therapy</h3>
+  </div>
+  </div>
+</div>
+
+<div class="w3-container w3-padding-64 w3-center" >
+  <h1 class="w3-pannel w3-black w3-text-yellow" >Liberal Arts</h1>
+
+  <div class="w3-row"><br>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Communications And New Media</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>English</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Fine Arts</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>General Studies</h3>
+  </div>
+  </div>
+</div>
+
+<div class="w3-container w3-padding-64 w3-center" >
+  <h1 class="w3-pannel w3-black w3-text-yellow" >Science & Engineering</h1>
+
+  <div class="w3-row"><br>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Construction Management</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Electrical Engineering</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Engineering Management</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Electronics Engineering</h3>
+  </div>
+
+  <div class="w3-row"><br>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Environmental Policy</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Environmental Science</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Fire Science</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>GeoTechinal Engineering</h3>
+  </div>
+
+  <div class="w3-row"><br>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Software Engineering</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Structural Engineering</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Sustainability</h3>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="download.jpg"  style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>System Engineering</h3>
+  </div>
+
+  </div>
+</div>
+<br><br><br>
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+      <p>Lovely Professional University</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>Phagwara, Punjab, India</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +91 9149665892</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  career@acadamic.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>I Like it!</label>
+      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+<div style="height: 2px;width: 83%;margin:25px 0 0 120px;background-color: black;float: left;">
+</div>
+<div style="height: 30px;width: 20%;float: left;border: none;margin: 5px 0 0 450px;font-size: 28px;text-align: right;;color: black;">
+   <i class="fa fa-facebook-square"></i>
+   <i class="fa fa-twitter"></i>
+   <i class="fa fa-youtube"></i>
+</div></div>
+<div>
+
+
+</body>
+</html>
